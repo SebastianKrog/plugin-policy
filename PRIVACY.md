@@ -27,7 +27,9 @@ When you use the Yack plugin in ChatGPT, OpenAI processes your conversation unde
 
 Yack has no automatic expiry for inactive profiles in its application code. Routine sync and checklist edits prune saved version snapshots to 30 per profile. Clearing synced data can create a recovery snapshot. You can export task definitions as JSON.
 
-Deleting your Yack profile removes synced records and saved versions from the active database and deletes uploaded media from the active file store. Yack retains an account identifier and deletion marker to prevent stale sync requests from restoring deleted records. The application sets no expiry for that marker. This describes Yack’s active storage. Hosting provider backups and operational logs may follow separate retention rules.
+When you delete your Yack profile, Yack removes your synced records and saved versions from its active database and deletes uploaded media from its active file store. Yack keeps your account identifier, sync generation and a deletion flag to prevent older devices from restoring deleted data. The flag stays set until you recreate your profile. If you never recreate it, Yack has no automatic expiry for the deletion record.
+
+These rules describe Yack’s active storage. ChatGPT Sites infrastructure backups and operational logs may follow separate retention rules. Yack has no verified retention period to publish for those backups or logs.
 
 Use [GitHub Issues](https://github.com/SebastianKrog/plugin-policy/issues) for general Yack support. Issues are public. Keep account details and other personal data out of your post.
 
