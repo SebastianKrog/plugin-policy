@@ -1,23 +1,37 @@
 # Privacy policy
 
 **Publisher and contact:** Sebastian Krog, Denmark — [support and contact](SUPPORT.md)  
-**Last updated:** 21 October 2026
+**Last updated:** 10 November 2026
 
 ## 1. Scope
 
 This policy covers the independent plugins listed on the [project homepage](README.md) and this repository's support arrangements. It explains the publisher's practices separately from those of the AI platform, GitHub and email providers. Plugin-specific notices may supplement this policy.
 
-## 2. Ordinary plugin use
+## 2. Skriv som Heste-Nettet
 
-The covered plugins consist of instructions executed by the host AI platform. They have no publisher-operated backend, database, analytics service, advertising system or tracking cookies. They do not independently send or store prompts, uploaded files, generated outputs or conversation history on external websites. The publisher does not receive or access your conversations through these plugins and does not sell or use plugin conversations for advertising or training a separate model.
+This plugin consists of instructions executed by the host AI platform. It has no publisher-operated backend, database, analytics service, advertising system or tracking cookies. It does not independently send or store prompts, uploaded files, generated outputs or conversation history on external websites. The publisher does not receive or access your conversations through this plugin and does not sell or use plugin conversations for advertising or training a separate model.
 
 This does **not** mean that no data is processed or stored. The host platform processes your inputs and generates outputs, and may retain conversations, files, usage information and account data under its own policies and your account settings. Installation, account and platform-level diagnostic information are governed by the platform's own notices. This policy does not override them.
 
-If you separately ask the AI assistant to use another connected service, its processing is governed by that service and the relevant tool's notices. The plugins covered here do not themselves add an external integration. A future plugin that does so must disclose its different practices before use.
+If you separately ask the AI assistant to use another connected service, its processing is governed by that service and the relevant tool's notices. Skriv som Heste-Nettet does not itself add an external integration.
 
 For ChatGPT, see [OpenAI's privacy policy](https://openai.com/policies/privacy-policy/). Use your host platform's controls for conversation deletion, data export and related account settings.
 
-## 3. Support messages and repository activity
+## 3. Yack
+
+Yack can store checklist data in your browser. If you sign in and sync through ChatGPT Sites, Yack receives an account identifier, your email address and, when available, your name. It uses the identifier to associate synced records with your profile and uses your name or email address to display the signed-in identity.
+
+Synced data can include tasks, lists, reminders, checklist progress, notes, settings and saved versions. ChatGPT Sites provides Cloudflare D1 database storage for synced records and private Cloudflare R2 object storage for uploaded note images and PDFs.
+
+When you use the Yack plugin in ChatGPT, OpenAI processes your conversation under its own policies. The Yack tools read or update task and reminder data in the connected profile and return relevant results to ChatGPT. For example, updating a recurring task sends the updated list document to Yack for saving.
+
+Yack has no automatic expiry for inactive profiles in its application code. Routine sync and checklist edits prune saved version snapshots to 30 per profile. Clearing synced data can create a recovery snapshot. You can export task definitions as JSON.
+
+Deleting your Yack profile removes synced records and saved versions from the active database and deletes uploaded media from the active file store. Yack retains an account identifier and deletion marker to prevent stale sync requests from restoring deleted records. The application sets no expiry for that marker. This describes Yack’s active storage. Hosting provider backups and operational logs may follow separate retention rules.
+
+Use [GitHub Issues](https://github.com/SebastianKrog/plugin-policy/issues) for general Yack support. Issues are public. Keep account details and other personal data out of your post.
+
+## 4. Support messages and repository activity
 
 If you contact the publisher, the publisher receives the information you choose to send, such as your name or email address, the plugin name, the issue description and any attachments. The publisher uses this information to respond, investigate problems, address security or rights concerns and, where necessary, comply with legal obligations or establish, exercise or defend legal claims.
 
@@ -25,7 +39,7 @@ Where GDPR applies, the publisher is the controller for this support corresponde
 
 GitHub issues, comments and repository contributions are public and may include your username and any information you post. Public content may be copied, indexed or retained in repository history. Do not publish sensitive material. Email and repository providers process correspondence, account information and technical data under their own terms. See [GitHub's privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) and [Google's privacy policy](https://policies.google.com/privacy) if you use those services.
 
-## 4. Sharing, retention and international processing
+## 5. Sharing, retention and international processing
 
 The publisher does not sell personal information. Support information is not shared for advertising. It may be handled by the email and repository providers needed for communication, or disclosed where required by law or reasonably necessary to address a security incident or legal claim. The publisher does not intentionally publish private support messages without permission, unless disclosure is required by law.
 
@@ -33,7 +47,7 @@ Private support correspondence is retained only for as long as reasonably needed
 
 Third-party platforms may process data outside your country, including outside the EEA. Their privacy notices explain their locations and applicable transfer safeguards. The publisher does not operate a separate international-transfer system for plugin conversations.
 
-## 5. Your rights and contact
+## 6. Your rights and contact
 
 Where applicable, you may request access, correction, erasure, restriction or portability of personal information handled by the publisher, and object to processing based on legitimate interests. Rights are subject to their legal conditions and exceptions. Use the [support page](SUPPORT.md) to contact the publisher; provide only the details needed to identify the request. Reasonable identity verification may be necessary.
 
@@ -41,7 +55,7 @@ For data held by the host platform, GitHub or another provider, use that provide
 
 You may complain to your local data-protection authority. In Denmark, this is [Datatilsynet](https://www.datatilsynet.dk/).
 
-## 6. Children and changes
+## 7. Children and changes
 
 The plugins are not directed to children under 13. Users must also meet the host platform's age and consent requirements. The publisher does not knowingly seek personal information from children under 13.
 

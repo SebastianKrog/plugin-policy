@@ -1,7 +1,7 @@
 # Sebastian Krog — independent plugins
 
 **Publisher:** Sebastian Krog, Denmark  
-**Last updated:** 21 October 2026
+**Last updated:** 10 November 2026
 
 This repository provides the public information, support page, privacy policy and terms for the independent, free plugins listed below. They are personal, non-commercial projects. They are not provided on behalf of my employer or any other organisation, and there is no sponsorship, endorsement or commercial affiliation with the third-party services, communities or brands they mention.
 
@@ -10,8 +10,9 @@ This repository provides the public information, support page, privacy policy an
 | Plugin | Purpose |
 | --- | --- |
 | [Skriv som Heste-Nettet 🐎🌐](https://chatgpt.com/plugins/plugins_6ad888e8490c819181fda1926252c3ce) | Writes short, humorous Danish forum-style posts and replies about the user's chosen topic in an editable writing box. Independently created; not affiliated with or endorsed by Heste-Nettet. |
+| [Yack](https://yack.sebastiankrog.chatgpt.site) | A personal checklist for recurring routines and one-off reminders. The ChatGPT plugin reads and updates tasks and reminders in your connected Yack profile. |
 
-These plugins provide instructions used inside the host AI platform. They do not run a publisher-operated backend or independently send or store your prompts, files or outputs on external websites. Processing and storage by the host platform remain subject to that platform's own policies. Support messages and public GitHub activity are separate from ordinary plugin use and are explained in the privacy policy.
+Skriv som Heste-Nettet runs as instructions inside the host AI platform. Yack uses a ChatGPT Sites backend for optional account sync and connected checklist tools. The [privacy policy](PRIVACY.md) describes each plugin’s data practices. Processing and storage by the host platform are also subject to its own policies.
 
 The publisher does not charge for these plugins or sell products through them. Access to the host platform may require a separate account or subscription, subject to its provider's terms and availability.
 
